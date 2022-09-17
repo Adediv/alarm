@@ -21,3 +21,13 @@ const setAlarm= ()=>{
   }
   setInterval("setAlarm()",1000)
 }
+const stop=()=>{
+  alert("Answer this question")
+  var wakeUp = prompt('Do you have class today?','yes or no')
+  if(wakeUp == "no" ){
+    song.pause()
+  }
+ else if (wake == "yes"){
+    song.play()
+  }
+}
