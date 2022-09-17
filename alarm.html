@@ -9,16 +9,16 @@
     <link rel="stylesheet" href="alarm.css">
 </head>
 <body>
-  <h3 class="text-center text-light "><em>ALARM SYSTEM</em> </h3>
-  <div class="text-center col-sm-11 col-md-9 col-lg-6 bg-light bg-opacity-25">
+  <h3 class="text-center text-light mt-5"><em>ALARM SYSTEM</em> </h3>
+  <div class="text-center col-sm-11 col-md-9 col-lg-6 bg-light bg-opacity-25 rounded-pill">
   
     <div id="clock">Clock</div>
         <div class="text-center">
-            <input  class="col text-center   border-0 fs-3" type="text" placeholder="HOURS" id="myHour">:
-            <input  class="col text-center  border-0 fs-3 " type="text" placeholder="MINUTES" id="myMin">:
+            <input  class="col text-center rounded-pill   border-0 fs-3" type="text" placeholder="HOURS" id="myHour">:
+            <input  class="col text-center rounded-pill  border-0 fs-3 " type="text" placeholder="MINUTES" id="myMin">:
         </div>
         <button class="btn btn-dark border-0  fw-bold mt-4 rounded-pill fs-4 mx-1" onclick="setAlarm()"> SET ALARM</button>
-        <button class="btn btn-dark border-0  fw-bold mt-4 rounded-pill fs-4 mx-1" onclick="stop()"> STOP</button>
+        <button class="btn btn-danger border-0  fw-bold mt-4 rounded-pill fs-4 mx-1" onclick="stop()"> STOP</button>
    </div>
  
   <script src="alarm.js"></script>
