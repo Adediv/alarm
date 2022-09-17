@@ -1,3 +1,4 @@
+const song = new Audio('fireboy.mp3');
 function updateTime() {
   const date =new Date();
   
@@ -16,7 +17,7 @@ const setAlarm= ()=>{
   var alarmMin = myMin.value
   date = new Date()
   if (alarmHour==date.getHours() && alarmMin == date.getMinutes()) {
-    alert("time don knack")
+    song.play()
   }
   setInterval("setAlarm()",1000)
 }
